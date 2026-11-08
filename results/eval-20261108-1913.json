@@ -1,0 +1,1298 @@
+{
+ "meta": {
+  "time": "20261108-1913",
+  "note": "기준 실행",
+  "router": "gpt-5.6-luna",
+  "answer": "gpt-5.6-terra",
+  "judge": "gpt-5.6-terra",
+  "threshold": 0.5
+ },
+ "judge_check": {
+  "ok": true,
+  "rows": [
+   {
+    "id": "F01",
+    "reference_pass": true,
+    "bad_fail": true,
+    "reference_reason": "혼인신고만으로 배우자 기본공제가 가능하다고 했고, 해당 연도 12월 31일까지 혼인신고하면 된다는 요건을 명시했습니다.",
+    "bad_reason": "배우자 기본공제가 가능하다는 내용과 연말(12월 31일)까지 혼인신고하면 된다는 요건이 모두 빠졌습니다. 오히려 결혼식을 해야 공제된다고 하여 금지된 사실을 주장했습니다."
+   },
+   {
+    "id": "F02",
+    "reference_pass": true,
+    "bad_fail": true,
+    "reference_reason": "장인어른에 대한 기본공제가 가능하다고 했고, 별거하더라도 실제 부양 및 다른 형제자매의 중복공제 배제 요건을 모두 명시했습니다.",
+    "bad_reason": "답변은 동거해야만 공제된다고 하여 금지된 내용을 주장했습니다. 실제 부양 여부와 다른 형제자매의 공제 여부도 언급하지 않았습니다."
+   },
+   {
+    "id": "F03",
+    "reference_pass": true,
+    "bad_fail": true,
+    "reference_reason": "사실혼 배우자는 공제받을 수 없으며, 법률상 배우자가 아니기 때문이라고 명시했습니다.",
+    "bad_reason": "답변은 사실혼 배우자도 공제된다고 하여 필수 사실과 반대입니다. 사실혼 배우자는 법률상 배우자가 아니므로 배우자 공제를 받을 수 없습니다."
+   },
+   {
+    "id": "F04",
+    "reference_pass": true,
+    "bad_fail": true,
+    "reference_reason": "만 22세이므로 기본공제 대상이 아니며, 그 이유가 만 20세 나이기준 초과라고 명시되어 있습니다. 군인이라는 이유만으로 공제된다고 주장하지 않았습니다.",
+    "bad_reason": "답변은 기본공제가 가능하다고 하여 필수 결론과 반대이며, 만 20세 나이기준 초과 사유도 언급하지 않았습니다. 또한 금지된 '군인은 일시퇴거라서 공제된다'는 주장을 그대로 했습니다."
+   },
+   {
+    "id": "I01",
+    "reference_pass": true,
+    "bad_fail": true,
+    "reference_reason": "답변은 연 600만원의 과세대상 국민연금 수령 시 기본공제를 받을 수 없다고 했고, 기준액 5,166,667원을 초과한다고 명시했습니다.",
+    "bad_reason": "답변은 기본공제가 가능하다고 하여 필수 사실인 기본공제 불가 및 기준액 초과를 모두 충족하지 못했습니다."
+   },
+   {
+    "id": "I02",
+    "reference_pass": true,
+    "bad_fail": true,
+    "reference_reason": "답변은 배우자 기본공제가 가능하다고 명시했고, 일용근로소득이 분리과세이므로 소득 금액과 관계없다고 설명했습니다. 금지된 총급여 500만원 기준이나 공제 불가 주장은 없습니다.",
+    "bad_reason": "답변은 배우자 기본공제 요건을 총급여 500만원 이하라고 하여, 일용근로소득의 분리과세 특성을 반영하지 않았습니다. 따라서 필수 사실을 충족하지 못했고 금지된 내용을 주장했습니다."
+   },
+   {
+    "id": "I03",
+    "reference_pass": true,
+    "bad_fail": true,
+    "reference_reason": "답변은 배우자 공제가 가능하다고 했고, 근로소득만 있는 경우 총급여 500만원 이하이면 소득요건을 충족한다고 명시했습니다.",
+    "bad_reason": "답변은 배우자 공제가 가능하다는 점과 근로소득만 있는 경우 총급여 500만원 이하까지 소득요건을 충족한다는 점을 담지 않았습니다. 오히려 연간소득금액 100만원 초과로 공제받을 수 없다고 하여 금지된 내용을 주장했습니다."
+   },
+   {
+    "id": "I04",
+    "reference_pass": true,
+    "bad_fail": true,
+    "reference_reason": "배우자 기본공제가 가능하다고 했고, 금융소득 2천만원 이하가 분리과세되어 소득금액 계산에서 제외된다는 사실을 모두 포함합니다.",
+    "bad_reason": "답변은 이자소득 1,900만원 때문에 배우자 기본공제를 받을 수 없다고 하여 금지된 주장을 했습니다. 금융소득 2천만원 이하의 분리과세 및 배우자 기본공제 가능 여부도 담지 않았습니다."
+   },
+   {
+    "id": "E01",
+    "reference_pass": true,
+    "bad_fail": true,
+    "reference_reason": "70세 이상 요건과 2025년 귀속 기준 1955년 12월 31일 이전 출생자라는 기준을 모두 정확히 제시했습니다.",
+    "bad_reason": "답변은 경로우대 추가공제 연령을 65세라고 하여, 70세 이상 요건을 충족하지 못했습니다. 또한 금지된 '65세부터'라는 내용을 주장했습니다."
+   },
+   {
+    "id": "E02",
+    "reference_pass": true,
+    "bad_fail": true,
+    "reference_reason": "부녀자 공제와 한부모 공제는 중복 적용할 수 없다고 했고, 공제액이 큰 한부모 공제 연 100만원을 적용한다고 명시했습니다.",
+    "bad_reason": "답변은 두 공제를 함께 받을 수 있다고 하여 중복 불가 요건과 한부모 공제 우선 적용 내용을 모두 충족하지 못했습니다."
+   },
+   {
+    "id": "E03",
+    "reference_pass": true,
+    "bad_fail": true,
+    "reference_reason": "사망한 연도에도 경로우대 공제가 가능하다고 했고, 70세 이상 및 연간소득금액 100만원 이하 요건을 모두 제시했습니다.",
+    "bad_reason": "답변은 경로우대 공제를 받을 수 있다고 하지 않았고, 나이·소득 요건도 제시하지 않았습니다. 오히려 연도 중 사망하면 받을 수 없다고 단정하여 금지된 사실을 주장했습니다."
+   },
+   {
+    "id": "E04",
+    "reference_pass": true,
+    "bad_fail": true,
+    "reference_reason": "암환자 전체가 대상이 아니라는 점과 장애인 등록 또는 의료기관의 장애인증명서 발급 시 공제 가능하다는 점을 모두 포함합니다.",
+    "bad_reason": "암환자가 모두 장애인공제 대상이라는 금지된 사실을 주장했습니다. 암환자라고 자동 대상이 아니며, 장애인 등록 또는 의료기관의 장애인증명서 발급 요건을 안내하지 않았습니다."
+   },
+   {
+    "id": "C01",
+    "reference_pass": true,
+    "bad_fail": true,
+    "reference_reason": "답변은 자녀세액공제액이 50만원이라고 명시했다. 금지된 30만원·70만원 또는 8세 이상 자녀 공제 25만원 추가를 주장하지 않았다.",
+    "bad_reason": "정답으로 요구된 자녀세액공제액 50만원을 충족하지 못했습니다. 30만원이라고 주장했으며, 이는 금지 항목에 해당합니다."
+   },
+   {
+    "id": "C02",
+    "reference_pass": true,
+    "bad_fail": true,
+    "reference_reason": "답변은 8세 이상 자녀를 2017년 12월 31일 이전 출생자로 정확히 제시했습니다. 2018년생 포함이라는 주장은 없습니다.",
+    "bad_reason": "답변은 2018년생도 포함된다고 하여 금지된 내용을 주장했습니다. 2025년 연말정산 기준 8세 이상은 2017년 12월 31일 이전 출생자라는 필수 사실도 충족하지 못했습니다."
+   },
+   {
+    "id": "C03",
+    "reference_pass": true,
+    "bad_fail": true,
+    "reference_reason": "답변은 기본공제대상자인 손자녀도 자녀세액공제를 받을 수 있다고 명확히 설명합니다. 금지된 반대 주장도 없습니다.",
+    "bad_reason": "답변은 손자녀에 대한 자녀세액공제가 가능하다는 사실을 담고 있지 않습니다. 오히려 받을 수 없다고 단정하여 금지된 내용을 주장합니다."
+   },
+   {
+    "id": "C04",
+    "reference_pass": true,
+    "bad_fail": true,
+    "reference_reason": "혼인신고 연도에 50만원 세액공제이며 생애 1회라는 두 필수 사실을 모두 포함합니다. 금지된 100만원 또는 부부 중 한 명만 가능하다는 주장도 없습니다.",
+    "bad_reason": "답변은 혼인세액공제를 100만원이라고 하여 필수 사실인 50만원 공제와 생애 1회 적용을 충족하지 못했습니다. 또한 금지된 사실인 100만원이라고 주장했습니다."
+   },
+   {
+    "id": "M01",
+    "reference_pass": true,
+    "bad_fail": true,
+    "reference_reason": "기본공제와 경로우대 공제를 모두 받을 수 있다고 했고, 400만원이 5,166,667원 이하라는 소득요건 및 72세가 70세 이상이라는 연령요건을 모두 정확히 제시했습니다.",
+    "bad_reason": "답변은 400만원이 5,166,667원을 넘는다고 하여 기준을 반대로 설명했습니다. 기본공제·경로우대 공제의 병행 가능 여부 및 72세의 경로우대 해당 여부도 언급하지 않았습니다."
+   },
+   {
+    "id": "M02",
+    "reference_pass": true,
+    "bad_fail": true,
+    "reference_reason": "장애인 형제자매의 나이 제한 없음, 연간소득금액 100만원 이하, 장애인 등록 또는 의료기관 장애인증명서 필요를 모두 포함합니다. 금지된 일반 형제자매 연령요건을 요구하지 않았습니다.",
+    "bad_reason": "답변은 장애인 형제자매의 나이요건 면제를 부정하고, 오히려 금지된 나이요건이 필요하다고 주장했습니다. 소득요건과 장애인증명서·등록 요건도 언급하지 않았습니다."
+   }
+  ],
+  "reference_pass": 18,
+  "bad_fail": 18,
+  "n": 18
+ },
+ "summary": {
+  "n": 22,
+  "accuracy": 1.0,
+  "macro_f1": 1.0,
+  "confusion_matrix": {
+   "labels": [
+    "FAMILY",
+    "INCOME",
+    "EXTRA",
+    "CREDIT",
+    "OTHER"
+   ],
+   "matrix": [
+    [
+     5,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     5,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     4,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     4,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     4
+    ]
+   ]
+  },
+  "tool_score": 0.955,
+  "answer_score": 0.909,
+  "guardrail_retries": 0,
+  "guardrail_blocked": 0
+ },
+ "rows": [
+  {
+   "id": "F01",
+   "rag": "①",
+   "question": "결혼식은 안 하고 혼인신고만 했는데 배우자 공제 되나요?",
+   "gold": [
+    "FAMILY"
+   ],
+   "pred": [
+    "FAMILY"
+   ],
+   "confidence": 0.99,
+   "class_ok": true,
+   "expected_tools": [
+    "lookup_family"
+   ],
+   "tools_called": [
+    "lookup_family"
+   ],
+   "tool_ok": true,
+   "route": "answer",
+   "handoff_reason": null,
+   "answer": "네, 가능합니다. 해당 연도의 12월 31일까지 혼인신고한 경우 배우자 기본공제를 받을 수 있습니다. 연간소득금액 100만원 이하를 충족해야 합니다. [QA-006]",
+   "checks": [
+    {
+     "attempt": 1,
+     "ok": true,
+     "problems": [],
+     "numbers": [
+      12,
+      31,
+      100
+     ],
+     "cited": [
+      "QA-006"
+     ],
+     "bad_numbers": [],
+     "bad_cites": []
+    }
+   ],
+   "answer_ok": true,
+   "judge": {
+    "must_ok": [
+     true,
+     true
+    ],
+    "forbid_hit": [
+     false,
+     false
+    ],
+    "passed": true,
+    "reason": "혼인신고만으로 배우자 기본공제가 가능하다고 했고, 해당 연도 12월 31일까지 혼인신고하면 된다는 요건을 명시했습니다."
+   },
+   "why": "혼인신고만으로 배우자 기본공제가 가능하다고 했고, 해당 연도 12월 31일까지 혼인신고하면 된다는 요건을 명시했습니다.",
+   "seconds": 3.1,
+   "error": null
+  },
+  {
+   "id": "F02",
+   "rag": "④",
+   "question": "시골에 사시는 장인어른도 기본공제 받을 수 있나요?",
+   "gold": [
+    "FAMILY"
+   ],
+   "pred": [
+    "FAMILY"
+   ],
+   "confidence": 0.99,
+   "class_ok": true,
+   "expected_tools": [
+    "lookup_family"
+   ],
+   "tools_called": [
+    "lookup_family"
+   ],
+   "tool_ok": true,
+   "route": "answer",
+   "handoff_reason": null,
+   "answer": "네. 가능합니다. 주거 형편상 따로 거주하나 실제로 부양하고 있으며, 다른 형제자매가 장인어른에 대해 기본공제를 받지 않고 소득요건 및 나이요건을 충족하는 경우에는 기본공제를 받을 수 있습니다. [QA-019]",
+   "checks": [
+    {
+     "attempt": 1,
+     "ok": true,
+     "problems": [],
+     "numbers": [],
+     "cited": [
+      "QA-019"
+     ],
+     "bad_numbers": [],
+     "bad_cites": []
+    }
+   ],
+   "answer_ok": true,
+   "judge": {
+    "must_ok": [
+     true,
+     true,
+     true
+    ],
+    "forbid_hit": [
+     false,
+     false
+    ],
+    "passed": true,
+    "reason": "장인어른에 대한 기본공제가 가능하다고 했고, 별거하더라도 실제 부양 및 다른 형제자매의 중복공제 배제 요건을 모두 명시했습니다."
+   },
+   "why": "장인어른에 대한 기본공제가 가능하다고 했고, 별거하더라도 실제 부양 및 다른 형제자매의 중복공제 배제 요건을 모두 명시했습니다.",
+   "seconds": 2.7,
+   "error": null
+  },
+  {
+   "id": "F03",
+   "rag": "",
+   "question": "혼인신고 없이 같이 사는 사실혼 배우자도 배우자 공제 되나요?",
+   "gold": [
+    "FAMILY"
+   ],
+   "pred": [
+    "FAMILY"
+   ],
+   "confidence": 0.99,
+   "class_ok": true,
+   "expected_tools": [
+    "lookup_family"
+   ],
+   "tools_called": [
+    "lookup_family"
+   ],
+   "tool_ok": true,
+   "route": "answer",
+   "handoff_reason": null,
+   "answer": "안됩니다. 법률상 배우자가 아닌 사실혼 관계의 배우자는 공제대상이 아닙니다. [QA-007]",
+   "checks": [
+    {
+     "attempt": 1,
+     "ok": true,
+     "problems": [],
+     "numbers": [],
+     "cited": [
+      "QA-007"
+     ],
+     "bad_numbers": [],
+     "bad_cites": []
+    }
+   ],
+   "answer_ok": true,
+   "judge": {
+    "must_ok": [
+     true,
+     true
+    ],
+    "forbid_hit": [
+     false
+    ],
+    "passed": true,
+    "reason": "사실혼 배우자는 공제 대상이 아니라고 명시했고, 그 이유를 법률상 배우자가 아니기 때문이라고 설명했습니다."
+   },
+   "why": "사실혼 배우자는 공제 대상이 아니라고 명시했고, 그 이유를 법률상 배우자가 아니기 때문이라고 설명했습니다.",
+   "seconds": 2.7,
+   "error": null
+  },
+  {
+   "id": "F04",
+   "rag": "",
+   "question": "군대 간 만 22세 아들도 기본공제 받을 수 있나요?",
+   "gold": [
+    "FAMILY"
+   ],
+   "pred": [
+    "FAMILY"
+   ],
+   "confidence": 0.99,
+   "class_ok": true,
+   "expected_tools": [
+    "lookup_family"
+   ],
+   "tools_called": [
+    "lookup_family"
+   ],
+   "tool_ok": true,
+   "route": "answer",
+   "handoff_reason": null,
+   "answer": "안됩니다. 군인은 근무상의 형편에 의거 일시퇴거한 자로 보아 나이기준을 충족한다면 기본공제 적용가능하나, 만20세를 초과하기 때문에 기본공제 적용받을 수 없습니다. [QA-031]",
+   "checks": [
+    {
+     "attempt": 1,
+     "ok": true,
+     "problems": [],
+     "numbers": [
+      20
+     ],
+     "cited": [
+      "QA-031"
+     ],
+     "bad_numbers": [],
+     "bad_cites": []
+    }
+   ],
+   "answer_ok": true,
+   "judge": {
+    "must_ok": [
+     true,
+     true
+    ],
+    "forbid_hit": [
+     false
+    ],
+    "passed": true,
+    "reason": "답변은 만 22세 아들은 만 20세 나이기준을 초과하여 기본공제를 받을 수 없다고 명시합니다. 군인의 일시퇴거는 나이기준을 충족하는 경우에만 적용 가능하다고 했을 뿐, 일시퇴거라서 공제된다고 주장하지 않았습니다."
+   },
+   "why": "답변은 만 22세 아들은 만 20세 나이기준을 초과하여 기본공제를 받을 수 없다고 명시합니다. 군인의 일시퇴거는 나이기준을 충족하는 경우에만 적용 가능하다고 했을 뿐, 일시퇴거라서 공제된다고 주장하지 않았습니다.",
+   "seconds": 2.7,
+   "error": null
+  },
+  {
+   "id": "I01",
+   "rag": "⑤",
+   "question": "어머니가 국민연금을 1년에 600만원 받으시는데 기본공제 되나요?",
+   "gold": [
+    "INCOME"
+   ],
+   "pred": [
+    "INCOME"
+   ],
+   "confidence": 0.99,
+   "class_ok": true,
+   "expected_tools": [
+    "lookup_income"
+   ],
+   "tools_called": [
+    "lookup_income"
+   ],
+   "tool_ok": true,
+   "route": "answer",
+   "handoff_reason": null,
+   "answer": "안됩니다. 연간 연금수령액이 5,166,667원을 초과하면 기본공제를 받을 수 없습니다. [QA-057]",
+   "checks": [
+    {
+     "attempt": 1,
+     "ok": true,
+     "problems": [],
+     "numbers": [
+      5166667
+     ],
+     "cited": [
+      "QA-057"
+     ],
+     "bad_numbers": [],
+     "bad_cites": []
+    }
+   ],
+   "answer_ok": true,
+   "judge": {
+    "must_ok": [
+     true,
+     true
+    ],
+    "forbid_hit": [
+     false,
+     false
+    ],
+    "passed": true,
+    "reason": "답변은 기본공제가 안 된다고 명시했고, 연간 연금수령액 5,166,667원 초과 기준을 제시했습니다."
+   },
+   "why": "답변은 기본공제가 안 된다고 명시했고, 연간 연금수령액 5,166,667원 초과 기준을 제시했습니다.",
+   "seconds": 2.8,
+   "error": null
+  },
+  {
+   "id": "I02",
+   "rag": "",
+   "question": "아내가 일용직으로만 일해서 돈을 꽤 벌었는데 배우자 기본공제 되나요?",
+   "gold": [
+    "INCOME"
+   ],
+   "pred": [
+    "INCOME"
+   ],
+   "confidence": 0.99,
+   "class_ok": true,
+   "expected_tools": [
+    "lookup_income"
+   ],
+   "tools_called": [
+    "lookup_income"
+   ],
+   "tool_ok": true,
+   "route": "answer",
+   "handoff_reason": null,
+   "answer": "네. 가능합니다. 일용근로소득만 있는 경우에는 소득의 크기에 상관없이 배우자 기본공제를 적용받을 수 있습니다. 일용근로소득은 분리과세소득으로 연간소득금액 판단에 포함되지 않습니다. [QA-049]",
+   "checks": [
+    {
+     "attempt": 1,
+     "ok": true,
+     "problems": [],
+     "numbers": [],
+     "cited": [
+      "QA-049"
+     ],
+     "bad_numbers": [],
+     "bad_cites": []
+    }
+   ],
+   "answer_ok": true,
+   "judge": {
+    "must_ok": [
+     true,
+     true
+    ],
+    "forbid_hit": [
+     false,
+     false
+    ],
+    "passed": true,
+    "reason": "일용근로소득만 있는 배우자에 대해서는 금액과 관계없이 기본공제가 가능하고, 그 이유가 분리과세라는 점을 모두 명시했습니다."
+   },
+   "why": "일용근로소득만 있는 배우자에 대해서는 금액과 관계없이 기본공제가 가능하고, 그 이유가 분리과세라는 점을 모두 명시했습니다.",
+   "seconds": 3.1,
+   "error": null
+  },
+  {
+   "id": "I03",
+   "rag": "",
+   "question": "남편이 근로소득만 있고 총급여가 450만원인데 배우자 공제 받을 수 있나요?",
+   "gold": [
+    "INCOME"
+   ],
+   "pred": [
+    "INCOME"
+   ],
+   "confidence": 0.99,
+   "class_ok": true,
+   "expected_tools": [
+    "lookup_income"
+   ],
+   "tools_called": [
+    "lookup_income"
+   ],
+   "tool_ok": true,
+   "route": "answer",
+   "handoff_reason": null,
+   "answer": "네, 가능합니다. 근로소득만 있는 경우 총급여액이 500만원 이하라면 배우자공제가 가능합니다. [QA-048]",
+   "checks": [
+    {
+     "attempt": 1,
+     "ok": true,
+     "problems": [],
+     "numbers": [
+      500
+     ],
+     "cited": [
+      "QA-048"
+     ],
+     "bad_numbers": [],
+     "bad_cites": []
+    }
+   ],
+   "answer_ok": true,
+   "judge": {
+    "must_ok": [
+     true,
+     true
+    ],
+    "forbid_hit": [
+     false
+    ],
+    "passed": true,
+    "reason": "답변은 배우자 공제가 가능하다고 했고, 근로소득만 있는 경우 총급여 500만원 이하까지 소득요건을 충족한다고 명시했습니다. 금지된 내용도 주장하지 않았습니다."
+   },
+   "why": "답변은 배우자 공제가 가능하다고 했고, 근로소득만 있는 경우 총급여 500만원 이하까지 소득요건을 충족한다고 명시했습니다. 금지된 내용도 주장하지 않았습니다.",
+   "seconds": 2.7,
+   "error": null
+  },
+  {
+   "id": "I04",
+   "rag": "",
+   "question": "아내가 예금 이자소득만 1,900만원 있는데 배우자 기본공제 되나요?",
+   "gold": [
+    "INCOME"
+   ],
+   "pred": [
+    "INCOME"
+   ],
+   "confidence": 0.99,
+   "class_ok": true,
+   "expected_tools": [
+    "lookup_income"
+   ],
+   "tools_called": [
+    "lookup_income"
+   ],
+   "tool_ok": true,
+   "route": "answer",
+   "handoff_reason": null,
+   "answer": "네, 가능합니다. 금융기관 등을 통해 원천징수된 이자·배당소득 합계액 2천만원 이하는 분리과세되며, 연간소득금액 계산 시 비과세·분리과세 소득은 제외하여 판단합니다. 따라서 금융소득이 2천만원 이하이면 배우자 기본공제를 받을 수 있습니다. [QA-043]",
+   "checks": [
+    {
+     "attempt": 1,
+     "ok": true,
+     "problems": [],
+     "numbers": [
+      2
+     ],
+     "cited": [
+      "QA-043"
+     ],
+     "bad_numbers": [],
+     "bad_cites": []
+    }
+   ],
+   "answer_ok": true,
+   "judge": {
+    "must_ok": [
+     true,
+     true
+    ],
+    "forbid_hit": [
+     false
+    ],
+    "passed": true,
+    "reason": "답변은 금융소득 2천만원 이하의 분리과세 소득은 연간소득금액 계산에서 제외된다고 설명하고, 이에 따라 배우자 기본공제가 가능하다고 명시했습니다."
+   },
+   "why": "답변은 금융소득 2천만원 이하의 분리과세 소득은 연간소득금액 계산에서 제외된다고 설명하고, 이에 따라 배우자 기본공제가 가능하다고 명시했습니다.",
+   "seconds": 3.2,
+   "error": null
+  },
+  {
+   "id": "E01",
+   "rag": "②",
+   "question": "경로우대 추가공제는 몇 살부터 받을 수 있나요?",
+   "gold": [
+    "EXTRA"
+   ],
+   "pred": [
+    "EXTRA"
+   ],
+   "confidence": 0.99,
+   "class_ok": true,
+   "expected_tools": [
+    "lookup_extra"
+   ],
+   "tools_called": [
+    "lookup_extra"
+   ],
+   "tool_ok": true,
+   "route": "answer",
+   "handoff_reason": null,
+   "answer": "경로우대자 추가공제는 70세 이상부터 받을 수 있습니다. 2025년 귀속 연말정산에서는 1955년 12월 31일 이전 출생한 경우에 적용됩니다. [QA-070]",
+   "checks": [
+    {
+     "attempt": 1,
+     "ok": true,
+     "problems": [],
+     "numbers": [
+      12,
+      31,
+      70,
+      1955,
+      2025
+     ],
+     "cited": [
+      "QA-070"
+     ],
+     "bad_numbers": [],
+     "bad_cites": []
+    }
+   ],
+   "answer_ok": true,
+   "judge": {
+    "must_ok": [
+     true,
+     true
+    ],
+    "forbid_hit": [
+     false,
+     false
+    ],
+    "passed": true,
+    "reason": "70세 이상 요건과 2025년 귀속 기준 1955년 12월 31일 이전 출생 요건을 모두 정확히 포함했습니다. 금지된 65세 기준이나 2025년 12월 31일 이전 출생이라는 표현은 주장하지 않았습니다."
+   },
+   "why": "70세 이상 요건과 2025년 귀속 기준 1955년 12월 31일 이전 출생 요건을 모두 정확히 포함했습니다. 금지된 65세 기준이나 2025년 12월 31일 이전 출생이라는 표현은 주장하지 않았습니다.",
+   "seconds": 2.6,
+   "error": null
+  },
+  {
+   "id": "E02",
+   "rag": "③",
+   "question": "부녀자 공제와 한부모 공제를 같이 받을 수 있나요?",
+   "gold": [
+    "EXTRA"
+   ],
+   "pred": [
+    "EXTRA"
+   ],
+   "confidence": 0.99,
+   "class_ok": true,
+   "expected_tools": [
+    "lookup_extra"
+   ],
+   "tools_called": [
+    "lookup_extra"
+   ],
+   "tool_ok": true,
+   "route": "answer",
+   "handoff_reason": null,
+   "answer": "안됩니다. 한부모 공제와 부녀자 공제가 중복될 때에는 중복하여 공제할 수 없고, 공제액이 많은 한부모 공제로 적용됩니다. [QA-092]",
+   "checks": [
+    {
+     "attempt": 1,
+     "ok": true,
+     "problems": [],
+     "numbers": [],
+     "cited": [
+      "QA-092"
+     ],
+     "bad_numbers": [],
+     "bad_cites": []
+    }
+   ],
+   "answer_ok": true,
+   "judge": {
+    "must_ok": [
+     true,
+     true
+    ],
+    "forbid_hit": [
+     false
+    ],
+    "passed": true,
+    "reason": "중복 공제가 불가하다고 했고, 공제액이 더 큰 한부모 공제를 적용한다고 명시했습니다."
+   },
+   "why": "중복 공제가 불가하다고 했고, 공제액이 더 큰 한부모 공제를 적용한다고 명시했습니다.",
+   "seconds": 2.8,
+   "error": null
+  },
+  {
+   "id": "E03",
+   "rag": "⑥",
+   "question": "아버지가 올해 돌아가셨는데 경로우대 공제도 받을 수 있나요?",
+   "gold": [
+    "EXTRA"
+   ],
+   "pred": [
+    "EXTRA"
+   ],
+   "confidence": 0.99,
+   "class_ok": true,
+   "expected_tools": [
+    "lookup_extra"
+   ],
+   "tools_called": [
+    "lookup_extra"
+   ],
+   "tool_ok": true,
+   "route": "answer",
+   "handoff_reason": null,
+   "answer": "네. 가능합니다.  \n70세 이상의 나이요건과 연간소득금액 100만원 이하의 소득요건을 충족한다면 연도 중 사망한 경우에도 기본공제와 경로우대자 추가공제 모두 가능합니다. [QA-071]",
+   "checks": [
+    {
+     "attempt": 1,
+     "ok": true,
+     "problems": [],
+     "numbers": [
+      70,
+      100
+     ],
+     "cited": [
+      "QA-071"
+     ],
+     "bad_numbers": [],
+     "bad_cites": []
+    }
+   ],
+   "answer_ok": true,
+   "judge": {
+    "must_ok": [
+     true,
+     true
+    ],
+    "forbid_hit": [
+     false
+    ],
+    "passed": true,
+    "reason": "연도 중 사망한 경우에도 경로우대자 추가공제가 가능하다고 했고, 70세 이상 및 연간소득금액 100만원 이하 요건을 모두 제시했습니다."
+   },
+   "why": "연도 중 사망한 경우에도 경로우대자 추가공제가 가능하다고 했고, 70세 이상 및 연간소득금액 100만원 이하 요건을 모두 제시했습니다.",
+   "seconds": 3.0,
+   "error": null
+  },
+  {
+   "id": "E04",
+   "rag": "",
+   "question": "아버지가 암 치료 중이신데 장애인 공제를 받을 수 있나요?",
+   "gold": [
+    "EXTRA"
+   ],
+   "pred": [
+    "EXTRA"
+   ],
+   "confidence": 0.99,
+   "class_ok": true,
+   "expected_tools": [
+    "lookup_extra"
+   ],
+   "tools_called": [
+    "lookup_extra"
+   ],
+   "tool_ok": true,
+   "route": "answer",
+   "handoff_reason": null,
+   "answer": "암환자 모두가 장애인공제 대상은 아닙니다. 의료기관에서 ‘소득세법에서 정한 장애인증명서’를 발급받은 경우라면 장애인 공제를 적용받을 수 있습니다. [QA-077]",
+   "checks": [
+    {
+     "attempt": 1,
+     "ok": true,
+     "problems": [],
+     "numbers": [],
+     "cited": [
+      "QA-077"
+     ],
+     "bad_numbers": [],
+     "bad_cites": []
+    }
+   ],
+   "answer_ok": false,
+   "judge": {
+    "must_ok": [
+     true,
+     false
+    ],
+    "forbid_hit": [
+     false
+    ],
+    "passed": false,
+    "reason": "암환자라고 모두 대상이 아니라는 점과 의료기관 장애인증명서 발급 시 공제 가능하다는 점은 포함되어 있습니다. 다만 장애인 등록을 한 경우에도 가능하다는 내용이 답변에 없습니다."
+   },
+   "why": "암환자라고 모두 대상이 아니라는 점과 의료기관 장애인증명서 발급 시 공제 가능하다는 점은 포함되어 있습니다. 다만 장애인 등록을 한 경우에도 가능하다는 내용이 답변에 없습니다.",
+   "seconds": 3.2,
+   "error": null
+  },
+  {
+   "id": "C01",
+   "rag": "",
+   "question": "첫째가 3살이고 올해 둘째를 낳았는데 자녀세액공제는 얼마예요?",
+   "gold": [
+    "CREDIT"
+   ],
+   "pred": [
+    "CREDIT"
+   ],
+   "confidence": 0.99,
+   "class_ok": true,
+   "expected_tools": [
+    "lookup_credit"
+   ],
+   "tools_called": [
+    "lookup_credit"
+   ],
+   "tool_ok": true,
+   "route": "answer",
+   "handoff_reason": null,
+   "answer": "자녀세액공제액은 50만원입니다. 기본공제 적용되는 자녀 중 8세 이상 자녀 수가 0명이므로 0원이며, 올해 출산한 둘째 자녀에 대한 출산·입양공제는 50만원입니다. [QA-102]",
+   "checks": [
+    {
+     "attempt": 1,
+     "ok": true,
+     "problems": [],
+     "numbers": [
+      0,
+      8,
+      50
+     ],
+     "cited": [
+      "QA-102"
+     ],
+     "bad_numbers": [],
+     "bad_cites": []
+    }
+   ],
+   "answer_ok": true,
+   "judge": {
+    "must_ok": [
+     true
+    ],
+    "forbid_hit": [
+     false,
+     false,
+     false
+    ],
+    "passed": true,
+    "reason": "답변은 자녀세액공제액이 50만원이라고 명시했습니다. 금지된 30만원·70만원 또는 8세 이상 자녀 공제 25만원 추가 주장은 없습니다."
+   },
+   "why": "답변은 자녀세액공제액이 50만원이라고 명시했습니다. 금지된 30만원·70만원 또는 8세 이상 자녀 공제 25만원 추가 주장은 없습니다.",
+   "seconds": 2.6,
+   "error": null
+  },
+  {
+   "id": "C02",
+   "rag": "",
+   "question": "2025년 연말정산에서 자녀세액공제 8세 이상 자녀는 몇 년생까지인가요?",
+   "gold": [
+    "CREDIT"
+   ],
+   "pred": [
+    "CREDIT"
+   ],
+   "confidence": 0.99,
+   "class_ok": true,
+   "expected_tools": [
+    "lookup_credit"
+   ],
+   "tools_called": [
+    "lookup_credit"
+   ],
+   "tool_ok": true,
+   "route": "answer",
+   "handoff_reason": null,
+   "answer": "2017년 12월 31일 이전 출생자입니다. 2025년 귀속 연말정산 시 8세 이상 자녀의 나이 기준일은 2017년 12월 31일 이전 출생자입니다. [QA-098]",
+   "checks": [
+    {
+     "attempt": 1,
+     "ok": true,
+     "problems": [],
+     "numbers": [
+      8,
+      12,
+      31,
+      2017,
+      2025
+     ],
+     "cited": [
+      "QA-098"
+     ],
+     "bad_numbers": [],
+     "bad_cites": []
+    }
+   ],
+   "answer_ok": true,
+   "judge": {
+    "must_ok": [
+     true
+    ],
+    "forbid_hit": [
+     false
+    ],
+    "passed": true,
+    "reason": "답변은 2017년 12월 31일 이전 출생자라고 명시하여 필수 사실을 충족합니다. 2018년생 포함이라는 주장은 없습니다."
+   },
+   "why": "답변은 2017년 12월 31일 이전 출생자라고 명시하여 필수 사실을 충족합니다. 2018년생 포함이라는 주장은 없습니다.",
+   "seconds": 2.9,
+   "error": null
+  },
+  {
+   "id": "C03",
+   "rag": "",
+   "question": "기본공제 받는 손자도 자녀세액공제 받을 수 있나요?",
+   "gold": [
+    "CREDIT"
+   ],
+   "pred": [
+    "CREDIT",
+    "FAMILY"
+   ],
+   "confidence": 0.98,
+   "class_ok": true,
+   "expected_tools": [
+    "lookup_credit"
+   ],
+   "tools_called": [
+    "lookup_credit",
+    "lookup_family"
+   ],
+   "tool_ok": false,
+   "route": "answer",
+   "handoff_reason": null,
+   "answer": "네. 기본공제대상자인 손자·손녀도 자녀세액공제를 적용받을 수 있습니다. 세법개정으로 공제 대상에 손자녀가 추가되었습니다. [QA-097]",
+   "checks": [
+    {
+     "attempt": 1,
+     "ok": true,
+     "problems": [],
+     "numbers": [],
+     "cited": [
+      "QA-097"
+     ],
+     "bad_numbers": [],
+     "bad_cites": []
+    }
+   ],
+   "answer_ok": true,
+   "judge": {
+    "must_ok": [
+     true
+    ],
+    "forbid_hit": [
+     false
+    ],
+    "passed": true,
+    "reason": "답변은 기본공제대상 손자·손녀도 자녀세액공제를 받을 수 있다고 명시했습니다. 금지된 내용은 주장하지 않았습니다."
+   },
+   "why": "답변은 기본공제대상 손자·손녀도 자녀세액공제를 받을 수 있다고 명시했습니다. 금지된 내용은 주장하지 않았습니다.",
+   "seconds": 3.7,
+   "error": null
+  },
+  {
+   "id": "C04",
+   "rag": "",
+   "question": "2025년에 혼인신고했는데 혼인세액공제는 얼마 받나요?",
+   "gold": [
+    "CREDIT"
+   ],
+   "pred": [
+    "CREDIT"
+   ],
+   "confidence": 0.99,
+   "class_ok": true,
+   "expected_tools": [
+    "lookup_credit"
+   ],
+   "tools_called": [
+    "lookup_credit"
+   ],
+   "tool_ok": true,
+   "route": "answer",
+   "handoff_reason": null,
+   "answer": "50만원을 세액공제받습니다. 혼인신고를 한 거주자는 혼인신고를 한 해에 생애 1회 50만원을 해당 과세기간의 종합소득산출세액에서 공제하며, ’24년부터 ’26년까지 혼인신고분에 적용됩니다. [KW-99]",
+   "checks": [
+    {
+     "attempt": 1,
+     "ok": true,
+     "problems": [],
+     "numbers": [
+      1,
+      24,
+      26,
+      50
+     ],
+     "cited": [
+      "KW-99"
+     ],
+     "bad_numbers": [],
+     "bad_cites": []
+    }
+   ],
+   "answer_ok": true,
+   "judge": {
+    "must_ok": [
+     true,
+     true
+    ],
+    "forbid_hit": [
+     false,
+     false
+    ],
+    "passed": true,
+    "reason": "50만원 세액공제와 생애 1회 적용을 모두 명시했습니다. 금지된 100만원 또는 부부 중 한 명만이라는 주장은 없습니다."
+   },
+   "why": "50만원 세액공제와 생애 1회 적용을 모두 명시했습니다. 금지된 100만원 또는 부부 중 한 명만이라는 주장은 없습니다.",
+   "seconds": 2.8,
+   "error": null
+  },
+  {
+   "id": "O01",
+   "rag": "⑦",
+   "question": "종합소득세 신고 기한이 언제예요?",
+   "gold": [
+    "OTHER"
+   ],
+   "pred": [
+    "OTHER"
+   ],
+   "confidence": 1.0,
+   "class_ok": true,
+   "expected_tools": [
+    "handoff"
+   ],
+   "tools_called": [
+    "handoff"
+   ],
+   "tool_ok": true,
+   "route": "handoff",
+   "handoff_reason": "범위 밖(OTHER)",
+   "answer": "이 질문은 인적공제 자료로 답할 수 없어 상담원에게 넘기겠습니다.",
+   "checks": [],
+   "answer_ok": true,
+   "judge": null,
+   "why": "넘김",
+   "seconds": 1.5,
+   "error": null
+  },
+  {
+   "id": "O02",
+   "rag": "⑧",
+   "question": "사업용 카드로 산 커피값도 비용 처리 되나요?",
+   "gold": [
+    "OTHER"
+   ],
+   "pred": [
+    "OTHER"
+   ],
+   "confidence": 0.99,
+   "class_ok": true,
+   "expected_tools": [
+    "handoff"
+   ],
+   "tools_called": [
+    "handoff"
+   ],
+   "tool_ok": true,
+   "route": "handoff",
+   "handoff_reason": "범위 밖(OTHER)",
+   "answer": "이 질문은 인적공제 자료로 답할 수 없어 상담원에게 넘기겠습니다.",
+   "checks": [],
+   "answer_ok": true,
+   "judge": null,
+   "why": "넘김",
+   "seconds": 2.9,
+   "error": null
+  },
+  {
+   "id": "O03",
+   "rag": "⑨",
+   "question": "내일 날씨 어때?",
+   "gold": [
+    "OTHER"
+   ],
+   "pred": [
+    "OTHER"
+   ],
+   "confidence": 1.0,
+   "class_ok": true,
+   "expected_tools": [
+    "handoff"
+   ],
+   "tools_called": [
+    "handoff"
+   ],
+   "tool_ok": true,
+   "route": "handoff",
+   "handoff_reason": "범위 밖(OTHER)",
+   "answer": "이 질문은 인적공제 자료로 답할 수 없어 상담원에게 넘기겠습니다.",
+   "checks": [],
+   "answer_ok": true,
+   "judge": null,
+   "why": "넘김",
+   "seconds": 1.3,
+   "error": null
+  },
+  {
+   "id": "O04",
+   "rag": "",
+   "question": "부모님 병원비는 의료비 세액공제를 얼마까지 받을 수 있나요?",
+   "gold": [
+    "OTHER"
+   ],
+   "pred": [
+    "OTHER"
+   ],
+   "confidence": 0.99,
+   "class_ok": true,
+   "expected_tools": [
+    "handoff"
+   ],
+   "tools_called": [
+    "handoff"
+   ],
+   "tool_ok": true,
+   "route": "handoff",
+   "handoff_reason": "범위 밖(OTHER)",
+   "answer": "이 질문은 인적공제 자료로 답할 수 없어 상담원에게 넘기겠습니다.",
+   "checks": [],
+   "answer_ok": true,
+   "judge": null,
+   "why": "넘김",
+   "seconds": 1.4,
+   "error": null
+  },
+  {
+   "id": "M01",
+   "rag": "⑩",
+   "question": "72세 어머니가 국민연금을 1년에 400만원 받으시는데, 기본공제와 경로우대 공제를 둘 다 받을 수 있나요?",
+   "gold": [
+    "INCOME",
+    "EXTRA"
+   ],
+   "pred": [
+    "INCOME",
+    "EXTRA"
+   ],
+   "confidence": 0.99,
+   "class_ok": true,
+   "expected_tools": [
+    "lookup_income",
+    "lookup_extra"
+   ],
+   "tools_called": [
+    "lookup_income",
+    "lookup_extra"
+   ],
+   "tool_ok": true,
+   "route": "answer",
+   "handoff_reason": null,
+   "answer": "네, 기본공제와 경로우대자 추가공제를 모두 받을 수 있습니다. 국민연금 연간 수령액이 5,166,667원 이하이면 기본공제를 받을 수 있으며, 70세 이상인 기본공제대상자는 1명당 연 100만원을 추가공제합니다. [QA-056] [KW-06]",
+   "checks": [
+    {
+     "attempt": 1,
+     "ok": true,
+     "problems": [],
+     "numbers": [
+      1,
+      70,
+      100,
+      5166667
+     ],
+     "cited": [
+      "QA-056",
+      "KW-06"
+     ],
+     "bad_numbers": [],
+     "bad_cites": []
+    }
+   ],
+   "answer_ok": true,
+   "judge": {
+    "must_ok": [
+     true,
+     true,
+     true
+    ],
+    "forbid_hit": [
+     false,
+     false
+    ],
+    "passed": true,
+    "reason": "기본공제와 경로우대 공제를 모두 받을 수 있다고 했고, 400만원이 5,166,667원 이하라는 소득요건 및 경로우대 70세 이상 요건을 제시했습니다."
+   },
+   "why": "기본공제와 경로우대 공제를 모두 받을 수 있다고 했고, 400만원이 5,166,667원 이하라는 소득요건 및 경로우대 70세 이상 요건을 제시했습니다.",
+   "seconds": 3.5,
+   "error": null
+  },
+  {
+   "id": "M02",
+   "rag": "⑪",
+   "question": "25세 장애인 동생을 부양하는데, 기본공제와 장애인 공제를 받으려면 무엇이 필요한가요?",
+   "gold": [
+    "FAMILY",
+    "EXTRA"
+   ],
+   "pred": [
+    "FAMILY",
+    "EXTRA"
+   ],
+   "confidence": 0.99,
+   "class_ok": true,
+   "expected_tools": [
+    "lookup_family",
+    "lookup_extra"
+   ],
+   "tools_called": [
+    "lookup_family",
+    "lookup_extra"
+   ],
+   "tool_ok": true,
+   "route": "answer",
+   "handoff_reason": null,
+   "answer": "주민등록상 같은 주소지에 거주하고, 동생의 연간소득금액이 100만원 이하이면 나이에 관계없이 기본공제와 장애인 공제를 받을 수 있습니다. 장애인 공제 대상에 해당하여야 합니다. [QA-083]",
+   "checks": [
+    {
+     "attempt": 1,
+     "ok": true,
+     "problems": [],
+     "numbers": [
+      100
+     ],
+     "cited": [
+      "QA-083"
+     ],
+     "bad_numbers": [],
+     "bad_cites": []
+    }
+   ],
+   "answer_ok": false,
+   "judge": {
+    "must_ok": [
+     true,
+     true,
+     false
+    ],
+    "forbid_hit": [
+     false
+    ],
+    "passed": false,
+    "reason": "장애인 형제자매의 나이와 무관한 공제 및 소득금액 요건은 언급했습니다. 그러나 장애인증명서 또는 장애인 등록이 필요하다는 내용이 없습니다."
+   },
+   "why": "장애인 형제자매의 나이와 무관한 공제 및 소득금액 요건은 언급했습니다. 그러나 장애인증명서 또는 장애인 등록이 필요하다는 내용이 없습니다.",
+   "seconds": 3.5,
+   "error": null
+  }
+ ]
+}
