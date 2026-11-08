@@ -53,4 +53,5 @@ python evaluate.py --note "메모"
 streamlit run app.py
 ```
 
-![데모 화면](1.png)
+![데모 화면 위: 판정·부른 도구](1.png)
+![데모 화면 아래: 답변·검증 결과·근거](2.png)
