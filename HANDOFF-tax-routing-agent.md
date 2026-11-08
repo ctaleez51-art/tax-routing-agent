@@ -35,7 +35,7 @@
 ## 5. 환경에서 알아 둘 것
 
 - 이 폴더는 아직 git 저장소가 아니다. git commit/push는 사용자가 PC 터미널에서 한다.
-- API 키: 이 폴더에 `.env`가 없으면 agent.py가 `../cs-agent/.env`를 읽는다. `.env`는 .gitignore에 있다.
+- API 키: agent.py가 이 폴더의 `.env`에서 읽는다. `.env`는 .gitignore에 있다.
 - 실행(PC 터미널, 이 폴더에서): `pip install -r requirements.txt` → `python evaluate.py --note "기준 실행"` → 결과는 results/eval-날짜.md. 데모는 `streamlit run app.py`.
 
 ## 6. 다음 할 일

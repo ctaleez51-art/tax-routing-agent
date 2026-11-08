@@ -81,7 +81,7 @@ RAG 가이드 챗봇 과제에서 쓴 자료 2개를 그대로 쓴다. 원본 �
 
 ### 모델
 
-- OpenAI: 판정 `gpt-5.6-luna`, 답변·채점 `gpt-5.6-terra` (cs-agent 교안 실습과 같은 모델). 키는 이 폴더의 `.env`, 없으면 `../cs-agent/.env`를 읽는다. (2026-11-08, 로컬 Ollama `qwen3.5:2b`에서 바꿈. 제출 시간이 빠듯하고 2b 모델은 RAG 과제에서 금액·연도를 자주 틀렸다)
+- OpenAI: 판정 `gpt-5.6-luna`, 답변·채점 `gpt-5.6-terra` (cs-agent 교안 실습과 같은 모델). 키는 이 폴더의 `.env`에서 읽는다. (2026-11-08, 로컬 Ollama `qwen3.5:2b`에서 바꿈. 제출 시간이 빠듯하고 2b 모델은 RAG 과제에서 금액·연도를 자주 틀렸다)
 
 ## 9. 평가셋
 
@@ -134,6 +134,8 @@ tax-routing-agent/
 ├── requirements.txt
 ├── .gitignore              # .env를 올리지 않는다
 ├── PRD.md
+├── README.md               # 저장소 첫 화면: 소개·결과 요약·실행 방법
+├── 1.png, 2.png            # 데모 화면 캡처 (REPORT.md 6절)
 └── REPORT.md               # 교안 10장 7가지 항목
 ```
 

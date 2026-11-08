@@ -22,7 +22,6 @@ from prompts import ANSWER_SYSTEM, RETRY_NOTE, ROUTER_SYSTEM
 
 HERE = Path(__file__).parent
 load_dotenv(HERE / ".env")
-load_dotenv(HERE.parent / "cs-agent" / ".env")  # 이 폴더에 .env가 없으면 cs-agent 실습의 키를 쓴다
 
 ROUTER_MODEL = os.environ.get("ROUTER_MODEL", "gpt-5.6-luna")
 ANSWER_MODEL = os.environ.get("ANSWER_MODEL", "gpt-5.6-terra")
